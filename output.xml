@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-11T17:34:52.488357" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 1" source="C:\Users\QUPS-6\Desktop\robot\project\TestCAse\TC_1.robot">
+<test id="s1-t1" name="Sinario: Login With Email ANd Password" line="8">
+<kw name="Open the chrome" owner="TC_1_KyeWord">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:34:52.700022" level="INFO">Opening browser 'chrome' to base url 'https://bikroy.com/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T17:34:52.700022" elapsed="6.043272"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-11T17:34:58.744682" elapsed="0.025123"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:34:52.700022" elapsed="6.069783"/>
+</kw>
+<kw name="Check that home page is displayed" owner="TC_1_KyeWord">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:34:58.777150" level="INFO">Page title is 'Bikroy - Electronics, Cars, Property and Jobs in Bangladesh'.</msg>
+<arg>Bikroy - Electronics, Cars, Property and Jobs in Bangladesh</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-07-11T17:34:58.769805" elapsed="0.007345"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:34:58.769805" elapsed="0.008345"/>
+</kw>
+<kw name="Check That login Button Is displayed" owner="TC_1_KyeWord">
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:34:58.791341" level="INFO">Current page contains element 'xpath://a[@aria-label='Login']'.</msg>
+<arg>${login_nav}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2024-07-11T17:34:58.778150" elapsed="0.013191"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:34:58.778150" elapsed="0.013191"/>
+</kw>
+<kw name="Click on Login Button" owner="TC_1_KyeWord">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:34:58.792342" level="INFO">Clicking link 'xpath://a[@aria-label='Login']'.</msg>
+<arg>${login_nav}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:34:58.792342" elapsed="0.110005"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:34:58.791341" elapsed="0.111006"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:00.902796" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:34:58.902347" elapsed="2.000449"/>
+</kw>
+<kw name="check That Continue with Email is Displayed" owner="TC_1_KyeWord">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:00.978389" level="INFO">Element 'xpath://button[@class='btn--1gFez secondary--Os-e9 background--2lR9B small--1MQ15 button--eCUEQ gtm-email-login']' is displayed.</msg>
+<arg>${get_email_login}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-11T17:35:00.902796" elapsed="0.075593"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:00.902796" elapsed="0.075593"/>
+</kw>
+<kw name="Click On Continue with Email button" owner="TC_1_KyeWord">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:00.978389" level="INFO">Clicking button 'xpath://button[@class='btn--1gFez secondary--Os-e9 background--2lR9B small--1MQ15 button--eCUEQ gtm-email-login']'.</msg>
+<arg>${get_email_login}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:00.978389" elapsed="0.073059"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:00.978389" elapsed="0.073059"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:03.052771" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:01.052450" elapsed="2.000321"/>
+</kw>
+<kw name="Enter Email on Email field" owner="TC_1_KyeWord">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:03.089298" level="INFO">Element 'name:email' is displayed.</msg>
+<arg>name:email</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-11T17:35:03.055209" elapsed="0.034089"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:03.090281" level="INFO">Typing text 'fuzzyaidan@fthcapital.com' into text field 'name:email'.</msg>
+<arg>name:email</arg>
+<arg>${Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:03.089298" elapsed="0.156692"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:03.054202" elapsed="0.192787"/>
+</kw>
+<kw name="Enter password on pass field" owner="TC_1_KyeWord">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:06.247406" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:03.246989" elapsed="3.000417"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:06.247406" level="INFO">Typing text 'fuzzyaidan@' into text field 'name:password'.</msg>
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:06.247406" elapsed="0.111173"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:03.246989" elapsed="3.111590"/>
+</kw>
+<kw name="Check That Login Button is visible" owner="TC_1_KyeWord">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:06.378054" level="INFO">Element 'Xpath://button[normalize-space()='Login']' is displayed.</msg>
+<arg>${login}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-11T17:35:06.359579" elapsed="0.018475"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:07.378437" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:06.378054" elapsed="1.000383"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:07.378437" level="INFO">Clicking button 'Xpath://button[normalize-space()='Login']'.</msg>
+<arg>${login}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:07.378437" elapsed="0.095760"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:06.359579" elapsed="1.114618"/>
+</kw>
+<kw name="Check That User is logedin" owner="TC_1_KyeWord">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:07.494817" level="INFO">Current page contains text 'My account'.</msg>
+<arg>My account</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-07-11T17:35:07.475182" elapsed="0.019635"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:07.475182" elapsed="0.019635"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-11T17:35:07.495356" elapsed="2.194640"/>
+</kw>
+<tag>Pass</tag>
+<status status="PASS" start="2024-07-11T17:34:52.700022" elapsed="16.990956"/>
+</test>
+<test id="s1-t2" name="sinario: check search Option is working properly" line="24">
+<kw name="Open the chrome" owner="TC_1_KyeWord">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:09.694067" level="INFO">Opening browser 'chrome' to base url 'https://bikroy.com/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T17:35:09.694067" elapsed="5.997649"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-11T17:35:15.691716" elapsed="0.032616"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:09.694067" elapsed="6.031262"/>
+</kw>
+<kw name="check that search options is displayed" owner="TC_1_KyeWord">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:15.748330" level="INFO">Element 'class:search-input--PtfH8' is displayed.</msg>
+<arg>${search_box}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-07-11T17:35:15.725329" elapsed="0.023001"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:15.725329" elapsed="0.024002"/>
+</kw>
+<kw name="click on search options" owner="TC_1_KyeWord">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:15.749331" level="INFO">Typing text 'LAPTOP' into text field 'class:search-input--PtfH8'.</msg>
+<arg>${search_box}</arg>
+<arg>LAPTOP</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:15.749331" elapsed="0.130613"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:15.749331" elapsed="0.130613"/>
+</kw>
+<kw name="CLICK ON SUBMIT OPTION" owner="TC_1_KyeWord">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:15.881430" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<arg>${submit_button}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:15.881430" elapsed="6.676444"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:15.879944" elapsed="6.677930"/>
+</kw>
+<kw name="check that items is displayed" owner="TC_1_KyeWord">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:22.594919" level="INFO">Current page contains text 'Showing'.</msg>
+<arg>Showing</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-07-11T17:35:22.559599" elapsed="0.036325"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:22.595924" level="INFO">Executing JavaScript:
+window.scrollTo(0,200)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,200)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-11T17:35:22.595924" elapsed="0.009985"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:24.607580" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:22.605909" elapsed="2.001671"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:24.608588" level="INFO">Executing JavaScript:
+window.scrollTo(200,400)
+Without any arguments.</msg>
+<arg>window.scrollTo(200,400)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-11T17:35:24.607580" elapsed="0.010329"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:26.618014" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:24.617909" elapsed="2.000105"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:26.618014" level="INFO">Executing JavaScript:
+window.scrollTo(400,600)
+Without any arguments.</msg>
+<arg>window.scrollTo(400,600)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-11T17:35:26.618014" elapsed="0.009471"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:22.559599" elapsed="4.067886"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:35:29.629045" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:26.628496" elapsed="3.000549"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-11T17:35:29.629045" elapsed="2.208364"/>
+</kw>
+<tag>Pass</tag>
+<status status="PASS" start="2024-07-11T17:35:09.693039" elapsed="22.144370"/>
+</test>
+<test id="s1-t3" name="Sinario: check Browse items by category work properly" line="34">
+<kw name="Open the chrome" owner="TC_1_KyeWord">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:31.837409" level="INFO">Opening browser 'chrome' to base url 'https://bikroy.com/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T17:35:31.837409" elapsed="4.877609"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-11T17:35:36.716015" elapsed="0.034836"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:31.837409" elapsed="4.914448"/>
+</kw>
+<kw name="check Browse items by category is displayed" owner="TC_1_KyeWord">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:36.772008" level="INFO">Current page contains text 'Browse items by category'.</msg>
+<arg>Browse items by category</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-07-11T17:35:36.751857" elapsed="0.020151"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:36.751857" elapsed="0.020151"/>
+</kw>
+<kw name="check that frist category item is displayed" owner="TC_1_KyeWord">
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:36.791188" level="INFO">Current page contains element 'xpath://div[@class='section--3qPXi category-container--1RreD']//li[1]'.</msg>
+<arg>${cate_frist}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2024-07-11T17:35:36.773008" elapsed="0.018180"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:36.773008" elapsed="0.018180"/>
+</kw>
+<kw name="clcik on frist category item" owner="TC_1_KyeWord">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:36.791188" level="INFO">Clicking element 'xpath://div[@class='section--3qPXi category-container--1RreD']//li[1]'.</msg>
+<arg>${cate_frist}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-11T17:35:36.791188" elapsed="21.376453"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:36.791188" elapsed="21.376453"/>
+</kw>
+<kw name="check that items is displayed" owner="TC_1_KyeWord">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:58.189833" level="INFO">Current page contains text 'Showing'.</msg>
+<arg>Showing</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-07-11T17:35:58.168640" elapsed="0.021193"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:35:58.189833" level="INFO">Executing JavaScript:
+window.scrollTo(0,200)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,200)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-11T17:35:58.189833" elapsed="0.008112"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:36:00.199383" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:35:58.199226" elapsed="2.000157"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:36:00.200466" level="INFO">Executing JavaScript:
+window.scrollTo(200,400)
+Without any arguments.</msg>
+<arg>window.scrollTo(200,400)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-11T17:36:00.199383" elapsed="0.015047"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:36:02.215962" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:36:00.215508" elapsed="2.000454"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:36:02.219048" level="INFO">Executing JavaScript:
+window.scrollTo(400,600)
+Without any arguments.</msg>
+<arg>window.scrollTo(400,600)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-11T17:36:02.216973" elapsed="0.015315"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:58.168640" elapsed="4.063648"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-11T17:36:05.234081" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-07-11T17:36:02.233547" elapsed="3.000534"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-11T17:36:05.234081" elapsed="2.181326"/>
+</kw>
+<status status="PASS" start="2024-07-11T17:35:31.837409" elapsed="35.579363"/>
+</test>
+<status status="PASS" start="2024-07-11T17:34:52.490347" elapsed="74.929741"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">Pass</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TC 1">TC 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

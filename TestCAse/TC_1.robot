@@ -37,5 +37,4 @@ Sinario: check Browse items by category work properly
     check that frist category item is displayed
     clcik on frist category item
     check that items is displayed
-    Sleep    3
     Close Browser

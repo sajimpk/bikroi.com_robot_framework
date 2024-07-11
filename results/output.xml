@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-11T17:33:16.567739" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot" source="C:\Users\QUPS-6\Desktop\robot">
+<suite id="s1-s1" name="Project" source="C:\Users\QUPS-6\Desktop\robot\project">
+<suite id="s1-s1-s1" name="TestCAse" source="C:\Users\QUPS-6\Desktop\robot\project\TestCAse">
+<suite id="s1-s1-s1-s1" name="TC 1" source="C:\Users\QUPS-6\Desktop\robot\project\TestCAse\TC_1.robot">
+<test id="s1-s1-s1-s1-t1" name="Sinario: Login With Email ANd Password" line="8">
+<kw name="Open the chrome" owner="TC_1_KyeWord">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:33:16.834562" level="INFO">Opening browser 'chrome' to base url 'https://bikroy.com/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T17:33:16.833562" elapsed="6.346180"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:33:23.186805" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</msg>
+<msg time="2024-07-11T17:33:23.197470" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-07-11T17:33:23.179742" elapsed="0.107502">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-11T17:33:16.832562" elapsed="6.454682">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</status>
+</kw>
+<kw name="Check that home page is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.289771" elapsed="0.000000"/>
+</kw>
+<kw name="Check That login Button Is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.289771" elapsed="0.000000"/>
+</kw>
+<kw name="Click on Login Button" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.290773" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:23.290773" elapsed="0.000000"/>
+</kw>
+<kw name="check That Continue with Email is Displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.290773" elapsed="0.000000"/>
+</kw>
+<kw name="Click On Continue with Email button" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.292177" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:23.292177" elapsed="0.000000"/>
+</kw>
+<kw name="Enter Email on Email field" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.292177" elapsed="0.001226"/>
+</kw>
+<kw name="Enter password on pass field" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.293403" elapsed="0.000000"/>
+</kw>
+<kw name="Check That Login Button is visible" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.293403" elapsed="0.001005"/>
+</kw>
+<kw name="Check That User is logedin" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:23.294408" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:23.294408" elapsed="0.000000"/>
+</kw>
+<tag>Pass</tag>
+<status status="FAIL" start="2024-07-11T17:33:16.831562" elapsed="6.462846">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</status>
+</test>
+<test id="s1-s1-s1-s1-t2" name="sinario: check search Option is working properly" line="24">
+<kw name="Open the chrome" owner="TC_1_KyeWord">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:33:23.299894" level="INFO">Opening browser 'chrome' to base url 'https://bikroy.com/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T17:33:23.299894" elapsed="2.341927"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:33:25.646618" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</msg>
+<msg time="2024-07-11T17:33:25.670916" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-07-11T17:33:25.642457" elapsed="0.030847">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-11T17:33:23.299339" elapsed="2.374965">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</status>
+</kw>
+<kw name="check that search options is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:25.674304" elapsed="0.000000"/>
+</kw>
+<kw name="click on search options" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:25.675662" elapsed="0.000000"/>
+</kw>
+<kw name="CLICK ON SUBMIT OPTION" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:25.675662" elapsed="0.001005"/>
+</kw>
+<kw name="check that items is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:25.676667" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:25.676667" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:25.677801" elapsed="0.000000"/>
+</kw>
+<tag>Pass</tag>
+<status status="FAIL" start="2024-07-11T17:33:23.296760" elapsed="2.381041">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</status>
+</test>
+<test id="s1-s1-s1-s1-t3" name="Sinario: check Browse items by category work properly" line="34">
+<kw name="Open the chrome" owner="TC_1_KyeWord">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:33:25.689574" level="INFO">Opening browser 'chrome' to base url 'https://bikroy.com/'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-11T17:33:25.688564" elapsed="2.368302"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-07-11T17:33:35.255387" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D054ADF980&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4a4c33ee471318c96df4b420dcc1007/screenshot</msg>
+<msg time="2024-07-11T17:33:39.324413" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D054ADF6E0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4a4c33ee471318c96df4b420dcc1007/screenshot</msg>
+<msg time="2024-07-11T17:33:43.373114" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D054ADE930&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4a4c33ee471318c96df4b420dcc1007/screenshot</msg>
+<msg time="2024-07-11T17:33:47.425426" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: HTTPConnectionPool(host='localhost', port=55694): Max retries exceeded with url: /session/e4a4c33ee471318c96df4b420dcc1007/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D050A1DE20&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+<msg time="2024-07-11T17:33:47.430457" level="FAIL">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-07-11T17:33:28.056866" elapsed="19.462723">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))</status>
+</kw>
+<status status="FAIL" start="2024-07-11T17:33:25.687143" elapsed="21.832446">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))</status>
+</kw>
+<kw name="check Browse items by category is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:47.520613" elapsed="0.000000"/>
+</kw>
+<kw name="check that frist category item is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:47.521314" elapsed="0.000000"/>
+</kw>
+<kw name="clcik on frist category item" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:47.521946" elapsed="0.000000"/>
+</kw>
+<kw name="check that items is displayed" owner="TC_1_KyeWord">
+<status status="NOT RUN" start="2024-07-11T17:33:47.522586" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:47.523226" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-07-11T17:33:47.523671" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-11T17:33:25.685740" elapsed="21.838659">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))</status>
+</test>
+<status status="FAIL" start="2024-07-11T17:33:16.605979" elapsed="30.920428"/>
+</suite>
+<status status="FAIL" start="2024-07-11T17:33:16.602978" elapsed="30.925543"/>
+</suite>
+<status status="FAIL" start="2024-07-11T17:33:16.600980" elapsed="30.930566"/>
+</suite>
+<status status="FAIL" start="2024-07-11T17:33:16.578974" elapsed="30.954583"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">Pass</stat>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1" name="Project">Robot.Project</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1-s1" name="TestCAse">Robot.Project.TestCAse</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1-s1-s1" name="TC 1">Robot.Project.TestCAse.TC 1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-11T17:33:23.186805" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</msg>
+<msg time="2024-07-11T17:33:25.646618" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF76697EEA2+31554]
+	(No symbol) [0x00007FF7668F7ED9]
+	(No symbol) [0x00007FF7667B872A]
+	(No symbol) [0x00007FF76678D995]
+	(No symbol) [0x00007FF7668344D7]
+	(No symbol) [0x00007FF76684C051]
+	(No symbol) [0x00007FF76682CDD3]
+	(No symbol) [0x00007FF7667FA33B]
+	(No symbol) [0x00007FF7667FAED1]
+	GetHandleVerifier [0x00007FF766C88B1D+3217341]
+	GetHandleVerifier [0x00007FF766CD5AE3+3532675]
+	GetHandleVerifier [0x00007FF766CCB0E0+3489152]
+	GetHandleVerifier [0x00007FF766A2E776+750614]
+	(No symbol) [0x00007FF76690375F]
+	(No symbol) [0x00007FF7668FEB14]
+	(No symbol) [0x00007FF7668FECA2]
+	(No symbol) [0x00007FF7668EE16F]
+	BaseThreadInitThunk [0x00007FF8BBB0257D+29]
+	RtlUserThreadStart [0x00007FF8BD62AF28+40]
+</msg>
+<msg time="2024-07-11T17:33:35.255387" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D054ADF980&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4a4c33ee471318c96df4b420dcc1007/screenshot</msg>
+<msg time="2024-07-11T17:33:39.324413" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D054ADF6E0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4a4c33ee471318c96df4b420dcc1007/screenshot</msg>
+<msg time="2024-07-11T17:33:43.373114" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D054ADE930&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4a4c33ee471318c96df4b420dcc1007/screenshot</msg>
+<msg time="2024-07-11T17:33:47.425426" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: HTTPConnectionPool(host='localhost', port=55694): Max retries exceeded with url: /session/e4a4c33ee471318c96df4b420dcc1007/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x000002D050A1DE20&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+</errors>
+</robot>
