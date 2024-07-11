@@ -8,5 +8,8 @@ pip install -r requierment.text
 Robot [file name]
 </br>
 
-VS code extentions : 
+VS code extentions : </br>
+   1.RobotCode - Robot Framework Support
+   </br>
+   2.Robot Framework Language Server
  
